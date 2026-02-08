@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy import String, DateTime, func
 from datetime import datetime
-from app.db import Base  # از db.py import می‌کنیم
+from app.db import Base
 
 
 class Factory(Base):

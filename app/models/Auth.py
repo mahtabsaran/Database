@@ -3,7 +3,6 @@ from sqlalchemy import String, Integer, Boolean, DateTime, func
 from datetime import datetime
 from app.db import Base
 
-
 class Auth(Base):
     __tablename__ = "auth"
 

@@ -11,7 +11,7 @@ from .CropYear import CropYear
 from .Product import Product
 from .PaymentReason import PaymentReason
 from .ProductPrice import ProductPrice
-from .PurityPrice import PurityPrice  # اضافه کردن این خط
+from .PurityPrice import PurityPrice
 
 __all__ = [
     "Provinces", "City", "Village", "Factory", "User", "Auth",

@@ -1,8 +1,6 @@
-# app/config.py - اصلاح شده
-from fastapi import FastAPI
-from .db import create_db_and_tables  # تغییر این خط
 
-# بقیه importها را هم باید اصلاح کنید:
+from fastapi import FastAPI
+from .db import create_db_and_tables
 from .routers import (
     provinces_router, city_router, village_router,
     factory_router, user_router, auth_router,
@@ -23,12 +21,12 @@ def on_startup():
     create_db_and_tables()
 
 # Include all routers
+app.include_router(user_router)
+app.include_router(auth_router)
 app.include_router(provinces_router)
 app.include_router(city_router)
 app.include_router(village_router)
 app.include_router(factory_router)
-app.include_router(user_router)
-app.include_router(auth_router)
 app.include_router(measure_unit_router)
 app.include_router(pesticide_router)
 app.include_router(seed_router)

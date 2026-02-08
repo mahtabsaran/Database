@@ -15,8 +15,6 @@ async def lifespan(app: FastAPI):
     # Startup
     create_db_and_tables()
     yield
-    # Shutdown
-    # می‌توانید cleanup کدها را اینجا بنویسید
 
 app = FastAPI(
     title="HavirKesht Demo II",
