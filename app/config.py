@@ -11,8 +11,8 @@ from .routers import (
 )
 
 app = FastAPI(
-    title="HavirKesht Demo II",
-    description="Second demo of havirkesht project.",
+    title="HavirKesht Database",
+    description="Mahtab saran.",
     version="0.0.1",
 )
 
