@@ -6,3 +6,4 @@
  # git push origin main
 # بررسی وضعیت گیت هاب
  # git status
+ # pass: WBqcy6say1
