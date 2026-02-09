@@ -17,8 +17,8 @@ async def lifespan(app: FastAPI):
     yield
 
 app = FastAPI(
-    title="HavirKesht Demo II",
-    description="Second demo of havirkesht project.",
+    title="HavirKesht Database",
+    description="*****Mahtab Saran*****",
     version="0.0.1",
     lifespan=lifespan
 )
