@@ -1,2 +1,8 @@
  برای نصب کتابخانه های مورد نیار پروژه: pip install -r requirements.txt#
  #  uvicorn app.config:app --reload  برای اجرای برنامه
+ #  ذخیره تغییرات انجام شده و پوش کردن به گیت:
+ # git add .
+ #git commit -m "db-test"
+ # git push origin main
+# بررسی وضعیت گیت هاب
+ # git status
